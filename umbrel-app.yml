@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: motioneye
+name: MotionEye
+version: "1.0.0"
+description: >-
+  motionEye is an online interface for the software motion, a video surveillance program with motion detection.
+  It is designed to support safe cities with thousands of cameras, subscriber services, and self-hosted home use.
+  
+repository: "https://github.com/username/motioneye-app"  # Укажи свой репозиторий
+icon: "https://i.imgur.com/nbqoMnp.png"  # Иконка приложения
+category: automation
+
+releaseNotes: ""
+developer: "WpDews"
+website: https://wpdew.com/  
+gallery:
+  - https://i.imgur.com/6Cnf1Ze.png
+  - https://i.imgur.com/qRRmQmi.jpeg
+  - https://i.imgur.com/MswgCZv.jpeg
+    
+services:
+  motioneye:
+    ports:
+      - 8083
+      - 8765
+    volumes:
+      - etc
+      - var_lib
